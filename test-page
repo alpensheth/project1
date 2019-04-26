@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <style>
+            button {
+                width: 50%;
+                height: 50px;
+                font-size: 20px;
+                background-color: lightblue;
+                text-align: center;
+            }
+
+            button:hover {
+                background-color: orange;
+            form {
+                text-align: center;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Alpen Sheth, Ph.D.</h1>
+        <button><a href="https://www.linkedin.com/in/alpen-sheth/">Linkedin</a></button>
+        <button><a href="https://medium.com/@AlpenSheth">Medium Readings</a></button>
+        <button><a href="https://www.hurricaneguard.io">Blockchain Product</a></button>
+        <ul>
+            <li><a href="#Bio">Biography</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#Readings">Readings</a></li>
+        </ul>
+        <form>
+
+            <div>
+                <input name="name" type="text" placeholder="Name">
+                <input name="password" type="password" placeholder="Password">
+            </div>
+
+            <div>
+                Favorite color?
+                <input name="color" type="radio" value="red"> Red
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="blue"> Blue
+                <input name="color" type="radio" value="other"> Other
+            </div>
+        </form>
+        <h2 id="Bio">Biography</h2>
+        <p>
+            Manager and strategist with over 10 years of experience working in blockchain and emerging technologies adoption, product strategy, product management focused on client needs. My research and experience focuses on building applications using emerging technologies such as blockchain and machine learning, financing disaster risk and resilience, and achieving agricultural sustainability. Previously worked with MIT, World Bank Group, Risk Management Solutions, Economic Space Agency.
+            <a href="https://www.linkedin.com/in/alpen-sheth/">Click here to see biography!</a>
+        </p>
+        <h2 id="Products">Products</h2>
+        <p>
+           <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great to hear!<br><br>When asked by a journalist about the current best use cases for Ethereum, <a href="https://twitter.com/VitalikButerin?ref_src=twsrc%5Etfw">@VitalikButerin</a> calls parametric insurance like Raincoat and <a href="https://twitter.com/hashtag/HurricaneGuard?src=hash&amp;ref_src=twsrc%5Etfw">#HurricaneGuard</a> (powered by <a href="https://twitter.com/etherisc?ref_src=twsrc%5Etfw">@etherisc</a> ) &quot;most interesting stuff that is really hitting people&quot; <a href="https://twitter.com/hashtag/EDCON2019?src=hash&amp;ref_src=twsrc%5Etfw">#EDCON2019</a><a href="https://t.co/RBGpNkzCPw">https://t.co/RBGpNkzCPw</a></p>&mdash; Alpen Sheth (@AlpenSheth) <a href="https://twitter.com/AlpenSheth/status/1118281909333712901?ref_src=twsrc%5Etfw">April 16, 2019</a></blockquote>
+           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis mauris nec scelerisque porta. In vitae bibendum diam, eu varius felis. Proin pharetra rutrum urna finibus venenatis. Vivamus eu lectus gravida est sollicitudin vehicula. Vivamus volutpat malesuada est, vel tempus sapien sollicitudin quis. Ut non purus vitae leo varius condimentum ac quis nibh. Sed vehicula ultrices massa, non vulputate ex venenatis suscipit. Morbi sit amet enim vel justo dignissim ultrices quis eu massa. In fermentum volutpat elit sit amet pharetra. Sed volutpat commodo arcu eu commodo. Praesent in sem pellentesque, luctus erat nec, lobortis libero. Mauris posuere ante id facilisis efficitur. Praesent aliquet tincidunt vehicula. Vivamus rhoncus consequat bibendum. Sed tristique bibendum mauris, quis pellentesque nunc dignissim non. Sed consectetur bibendum massa id hendrerit.
+            <a href="https://www.hurricaneguard.io">Click here to see product!</a>
+        </p>
+        <h2 id="Readings">Readings</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis mauris nec scelerisque porta. In vitae bibendum diam, eu varius felis. Proin pharetra rutrum urna finibus venenatis. Vivamus eu lectus gravida est sollicitudin vehicula. Vivamus volutpat malesuada est, vel tempus sapien sollicitudin quis. Ut non purus vitae leo varius condimentum ac quis nibh. Sed vehicula ultrices massa, non vulputate ex venenatis suscipit. Morbi sit amet enim vel justo dignissim ultrices quis eu massa. In fermentum volutpat elit sit amet pharetra. Sed volutpat commodo arcu eu commodo. Praesent in sem pellentesque, luctus erat nec, lobortis libero. Mauris posuere ante id facilisis efficitur. Praesent aliquet tincidunt vehicula. Vivamus rhoncus consequat bibendum. Sed tristique bibendum mauris, quis pellentesque nunc dignissim non. Sed consectetur bibendum massa id hendrerit.
+            <a href="https://medium.com/@AlpenSheth">Click here to see Readings!</a>
+        </p>
+    </body>
+</html>
